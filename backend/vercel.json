@@ -11,18 +11,6 @@
         "src": "/(.*)",
         "dest": "/index.js"
       }
-    ],
-    "env": {
-      "NODE_ENV": "production",
-      "PORT": "3000",
-      "MONGO_URI": "@mongo_uri",
-      "JWT_SECRET": "@jwt_secret"
-    },
-    "functions": {
-      "index.js": {
-        "memory": 1024,
-        "maxDuration": 10
-      }
-    }
+    ]
   }
   
