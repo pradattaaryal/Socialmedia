@@ -10,7 +10,13 @@
       {
         "src": "/(.*)",
         "dest": "/"
+      },
+      {
+        "features": {
+          "vercelToolbar": false
+        }
       }
+      
     ]
   }
   
